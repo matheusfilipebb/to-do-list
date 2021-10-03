@@ -1,0 +1,8 @@
+.TodoList {
+    box-sizing: content-box;
+    text-align: center;
+    border: solid;
+    width: fit-content;
+    margin: auto;
+    padding: 0 2em;
+}
