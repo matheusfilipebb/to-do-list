@@ -51,8 +51,8 @@ class TodoList extends Component {
     ))
     return (
       <div className="TodoList">
-        <h1>Todo List</h1>
-        {todos}
+        <h1>To-do List<span>Lista de tarefas feita com React</span></h1>
+        <ul>{todos}</ul>
         <NewTodoForm createTodo={this.create} />
       </div>
     )
